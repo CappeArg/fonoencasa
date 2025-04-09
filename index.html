@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Rápida: Hitos Auditivos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'LucideIcons';
+            src: url(https://cdn.jsdelivr.net/npm/lucide-static@latest/font/Lucide.ttf) format('truetype');
+        }
+        
+        .lucide {
+            font-family: 'LucideIcons';
+            font-size: 1.25rem;
+            /* Adjust size as needed */
+            line-height: 1;
+        }
+        /* Custom styles */
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Default font */
+        }
+        
+        .content-section {
+            display: none;
+            /* Hide sections by default */
+        }
+        
+        .content-section.active {
+            display: block;
+            /* Show active section */
+        }
+        
+        .nav-button.active {
+            background-color: #3b82f6;
+            /* Example active color (blue-500) */
+            color: white;
+        }
+        /* Add some basic styling for lists */
+        
+        .milestone-list ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            /* Indentation for list items */
+            padding-left: 0.5rem;
+        }
+        
+        .milestone-list li {
+            margin-bottom: 0.5rem;
+            /* Space between list items */
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+    <div class="container mx-auto p-4 max-w-4xl">
+
+        <header class="text-center mb-6 bg-white p-6 rounded-lg shadow">
+            <h1 class="text-3xl font-bold text-blue-600">Guía Rápida: Hitos Auditivos</h1>
+            <p class="text-gray-600 mt-2">Referencia sobre el desarrollo auditivo y comunicativo temprano (0-5 años)</p>
+        </header>
+
+        <nav class="bg-white p-4 rounded-lg shadow mb-6">
+            <h2 class="text-lg font-semibold mb-3 text-center text-gray-700">Selecciona un Rango de Edad:</h2>
+            <div class="flex flex-wrap justify-center gap-2">
+                <button data-target="age-0-3m" class="nav-button active px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-150 ease-in-out text-sm">0-3 meses</button>
+                <button data-target="age-4-6m" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">4-6 meses</button>
+                <button data-target="age-7-12m" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">7-12 meses</button>
+                <button data-target="age-1y" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">1 año</button>
+                <button data-target="age-2y" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">2 años</button>
+                <button data-target="age-3y" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">3 años</button>
+                <button data-target="age-4y" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">4 años</button>
+                <button data-target="age-5y" class="nav-button px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition duration-150 ease-in-out text-sm">5 años</button>
+            </div>
+        </nav>
+
+        <main id="main-content" class="bg-white p-6 rounded-lg shadow min-h-[300px]">
+            <section id="age-0-3m" class="content-section active milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 0 a 3 Meses</h2>
+                <p class="mb-4 text-gray-600">Reacciones auditivas reflejas y primeras respuestas al sonido.</p>
+                <ul class="space-y-2">
+                    <li><strong>Sobresalto:</strong> Se sobresalta o parpadea ante ruidos fuertes y repentinos (ej: portazo).</li>
+                    <li><strong>Calma:</strong> Se calma o tranquiliza al escuchar la voz familiar (especialmente la materna).</li>
+                    <li><strong>Despertar:</strong> Puede despertarse con sonidos fuertes si está durmiendo ligeramente.</li>
+                    <li><strong>Vocalizaciones Reflejas:</strong> Produce sonidos guturales y gorjeos, no necesariamente como respuesta directa al sonido.</li>
+                    <li><strong>Atención Breve:</strong> Puede detener su actividad brevemente ante un sonido nuevo o interesante.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-4-6m" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 4 a 6 Meses</h2>
+                <p class="mb-4 text-gray-600">Comienza a buscar la fuente del sonido y muestra más interés por las voces.</p>
+                <ul class="space-y-2">
+                    <li><strong>Giro de Cabeza:</strong> Gira la cabeza o los ojos hacia la fuente de un sonido interesante (a los lados).</li>
+                    <li><strong>Respuesta a la Voz:</strong> Sonríe o vocaliza al escuchar voces familiares, incluso sin ver a la persona.</li>
+                    <li><strong>Interés en Juguetes Sonoros:</strong> Presta atención y puede intentar alcanzar sonajeros u otros juguetes que producen sonido.</li>
+                    <li><strong>Balbuceo Inicial:</strong> Comienza a experimentar con sonidos vocálicos y algunas consonantes (ej: "ba", "ga").</li>
+                    <li><strong>Reconoce Tonos:</strong> Empieza a distinguir tonos de voz (ej: enojo vs. alegría).</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-7-12m" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 7 a 12 Meses</h2>
+                <p class="mb-4 text-gray-600">Localiza sonidos con precisión, comprende palabras familiares y balbucea más.</p>
+                <ul class="space-y-2">
+                    <li><strong>Localización Precisa:</strong> Localiza sonidos provenientes de diferentes direcciones (lados, abajo, a veces arriba).</li>
+                    <li><strong>Respuesta al Nombre:</strong> Gira la cabeza o responde de alguna manera al escuchar su nombre.</li>
+                    <li><strong>Comprensión de Palabras Simples:</strong> Entiende palabras de rutinas familiares (ej: "chau", "mamá", "papá", "no").</li>
+                    <li><strong>Imitación de Sonidos:</strong> Intenta imitar sonidos del habla o ruidos que escucha.</li>
+                    <li><strong>Balbuceo Reduplicativo:</strong> Produce cadenas de sílabas repetidas (ej: "bababa", "mamama").</li>
+                    <li><strong>Responde a Música:</strong> Muestra interés por la música, puede moverse o vocalizar.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-1y" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 1 Año (Aprox. 12-18 Meses)</h2>
+                <p class="mb-4 text-gray-600">Comprende instrucciones simples, dice sus primeras palabras con significado.</p>
+                <ul class="space-y-2">
+                    <li><strong>Sigue Instrucciones Simples:</strong> Puede seguir órdenes de un paso acompañadas de gestos (ej: "dame la pelota").</li>
+                    <li><strong>Señala Objetos Nombrados:</strong> Señala un objeto familiar cuando se le nombra.</li>
+                    <li><strong>Primeras Palabras:</strong> Usa una o más palabras con significado (pueden no ser perfectamente pronunciadas).</li>
+                    <li><strong>Reconoce Canciones:</strong> Muestra reconocimiento de canciones o juegos infantiles familiares.</li>
+                    <li><strong>Entrega Objetos:</strong> Entrega un juguete u objeto cuando se le pide.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-2y" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 2 Años (Aprox. 18-24 Meses)</h2>
+                <p class="mb-4 text-gray-600">Aumenta el vocabulario, comprende más instrucciones y comienza a unir palabras.</p>
+                <ul class="space-y-2">
+                    <li><strong>Señala Partes del Cuerpo:</strong> Señala varias partes de su cuerpo cuando se le nombran.</li>
+                    <li><strong>Sigue Instrucciones de Dos Pasos (Simples):</strong> Puede seguir instrucciones como "Busca tus zapatos y tráelos".</li>
+                    <li><strong>Vocabulario en Expansión:</strong> Usa alrededor de 50 palabras o más.</li>
+                    <li><strong>Frases de Dos Palabras:</strong> Comienza a combinar dos palabras (ej: "más agua", "mamá ven").</li>
+                    <li><strong>Identifica Sonidos Ambientales:</strong> Reconoce sonidos comunes del entorno (ej: teléfono, perro).</li>
+                    <li><strong>Disfruta Cuentos:</strong> Presta atención a cuentos cortos y sencillos.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-3y" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 3 Años</h2>
+                <p class="mb-4 text-gray-600">Comprende conceptos más complejos, usa frases más largas y su habla es más inteligible.</p>
+                <ul class="space-y-2">
+                    <li><strong>Comprende Conceptos Espaciales/Cantidad:</strong> Entiende "adentro/afuera", "grande/pequeño", "uno/muchos".</li>
+                    <li><strong>Sigue Instrucciones de Dos o Tres Pasos:</strong> Puede seguir secuencias de instrucciones más largas.</li>
+                    <li><strong>Usa Frases de 3-4 Palabras:</strong> Construye oraciones más complejas.</li>
+                    <li><strong>Habla Inteligible:</strong> La mayor parte de su habla es comprensible para personas fuera del círculo familiar cercano.</li>
+                    <li><strong>Hace Preguntas Simples:</strong> Usa preguntas con "¿Qué?", "¿Dónde?".</li>
+                    <li><strong>Entiende Diferencias de Sonido:</strong> Nota si un sonido es fuerte o suave.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-4y" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 4 Años</h2>
+                <p class="mb-4 text-gray-600">Comprende la mayoría de lo que se le dice, cuenta historias simples y usa gramática más compleja.</p>
+                <ul class="space-y-2">
+                    <li><strong>Comprende Preguntas Complejas:</strong> Entiende preguntas con "¿Por qué?", "¿Cómo?".</li>
+                    <li><strong>Sigue Instrucciones Complejas:</strong> Puede seguir instrucciones con varios pasos, incluso si los objetos no están presentes.</li>
+                    <li><strong>Usa Oraciones Largas:</strong> Utiliza oraciones de 4 o más palabras con gramática más elaborada.</li>
+                    <li><strong>Cuenta Historias Sencillas:</strong> Puede relatar eventos recientes o partes de un cuento.</li>
+                    <li><strong>Habla Claramente:</strong> Su habla es casi completamente inteligible.</li>
+                    <li><strong>Oye y Entiende en Ambientes Ruidosos:</strong> Puede prestar atención y comprender conversaciones en entornos con algo de ruido de fondo.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <section id="age-5y" class="content-section milestone-list">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hitos Esperados: 5 Años</h2>
+                <p class="mb-4 text-gray-600">Comunica necesidades e ideas claramente, comprende casi todo y disfruta de conversaciones.</p>
+                <ul class="space-y-2">
+                    <li><strong>Comprende Instrucciones Secuenciales Complejas:</strong> Sigue instrucciones de varios pasos sin dificultad.</li>
+                    <li><strong>Usa Gramática Correcta:</strong> Utiliza la mayoría de las estructuras gramaticales del lenguaje adulto.</li>
+                    <li><strong>Conversa Fácilmente:</strong> Mantiene conversaciones fluidas sobre diversos temas.</li>
+                    <li><strong>Pronunciación Clara:</strong> Pronuncia la mayoría de los sonidos del habla correctamente.</li>
+                    <li><strong>Entiende Rimas:</strong> Reconoce y disfruta de palabras que riman.</li>
+                    <li><strong>Escucha Atentamente:</strong> Puede escuchar una historia completa y responder preguntas sobre ella.</li>
+                    <li><strong>IMPORTANTE:</strong> Estos son ejemplos. Reemplazar con hitos validados de fuentes argentinas.</li>
+                </ul>
+            </section>
+
+            <div class="mt-6 flex justify-center items-center space-x-4">
+                <button id="decrease-font" aria-label="Disminuir tamaño de fuente" class="p-2 bg-gray-200 rounded-full hover:bg-gray-300 transition duration-150">
+                    <span class="lucide">minus</span> </button>
+                <span class="text-sm text-gray-600">Tamaño Texto</span>
+                <button id="increase-font" aria-label="Aumentar tamaño de fuente" class="p-2 bg-gray-200 rounded-full hover:bg-gray-300 transition duration-150">
+                     <span class="lucide">plus</span> </button>
+            </div>
+
+        </main>
+
+        <footer class="mt-8 text-center text-sm text-gray-500">
+            <div class="bg-white p-4 rounded-lg shadow mb-4">
+                <h3 class="font-semibold mb-2 text-gray-700">Aviso Importante</h3>
+                <p>Esta guía es una herramienta orientativa y no reemplaza bajo ninguna circunstancia una evaluación fonoaudiológica o médica completa. Los hitos del desarrollo pueden variar entre niños. Si tiene alguna duda o preocupación sobre el desarrollo
+                    auditivo o comunicativo de un niño, consulte a un profesional de la salud (fonoaudiólogo/a, pediatra).</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="font-semibold mb-2 text-gray-700">Fuentes y Referencias</h3>
+                <p>La información sobre hitos debe basarse en guías y consensos actualizados reconocidos en Argentina (ej: Sociedad Argentina de Pediatría - SAP, consensos fonoaudiológicos locales, adaptaciones de escalas de desarrollo validadas).
+                    <strong
+                        class="text-red-600">[Nota: Es fundamental que el usuario final complete esta sección con las fuentes específicas utilizadas para validar el contenido de los hitos.]</strong>
+                </p>
+            </div>
+            <p class="mt-4">&copy; 2025 Guía Rápida: Hitos Auditivos. </p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Get references to elements
+        const navButtons = document.querySelectorAll('.nav-button');
+        const contentSections = document.querySelectorAll('.content-section');
+        const mainContent = document.getElementById('main-content');
+        const increaseFontButton = document.getElementById('increase-font');
+        const decreaseFontButton = document.getElementById('decrease-font');
+
+        // --- Navigation Logic ---
+        function setActiveSection(targetId) {
+            // Hide all sections
+            contentSections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Deactivate all buttons
+            navButtons.forEach(button => {
+                button.classList.remove('active', 'bg-blue-500', 'text-white');
+                button.classList.add('bg-gray-200', 'text-gray-700'); // Reset to inactive style
+            });
+
+            // Show the target section
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+
+            // Activate the target button
+            const targetButton = document.querySelector(`.nav-button[data-target="${targetId}"]`);
+            if (targetButton) {
+                targetButton.classList.add('active', 'bg-blue-500', 'text-white');
+                targetButton.classList.remove('bg-gray-200', 'text-gray-700');
+            }
+        }
+
+        // Add event listeners to navigation buttons
+        navButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const targetId = button.getAttribute('data-target');
+                setActiveSection(targetId);
+            });
+        });
+
+        // --- Font Size Adjustment Logic ---
+        let currentFontSize = 1; // Represents 1em (default)
+
+        function updateFontSize() {
+            // Apply font size to the main content area, affecting text within it
+            mainContent.style.fontSize = `${currentFontSize}rem`;
+            // Adjust heading sizes proportionally - optional, but improves scaling
+            mainContent.querySelectorAll('h2').forEach(h2 => {
+                h2.style.fontSize = `${1.5 * currentFontSize}rem`; // Example: h2 is 1.5x base
+            });
+            mainContent.querySelectorAll('p, li, strong').forEach(el => {
+                // Use inherit or set explicitly if needed, but direct parent style often works
+                // el.style.fontSize = 'inherit'; // Let elements inherit from mainContent
+            });
+        }
+
+
+        increaseFontButton.addEventListener('click', () => {
+            if (currentFontSize < 1.5) { // Set a maximum size limit
+                currentFontSize += 0.1;
+                updateFontSize();
+            }
+        });
+
+        decreaseFontButton.addEventListener('click', () => {
+            if (currentFontSize > 0.8) { // Set a minimum size limit
+                currentFontSize -= 0.1;
+                updateFontSize();
+            }
+        });
+
+        // --- Initial Setup ---
+        // Ensure the default active section (0-3m) is displayed on load
+        // The HTML already sets the 'active' class, so JS just needs to ensure consistency if needed.
+        // setActiveSection('age-0-3m'); // Call this if the default wasn't set in HTML
+
+        // Set initial font size based on currentFontSize (which is 1rem by default)
+        updateFontSize();
+    </script>
+
+</body>
+
+</html>
